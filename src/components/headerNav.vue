@@ -1,7 +1,7 @@
 <template lang="html">
-  <div class="border-t-4 border-blue-800">
-    <div class="w-ad mx-auto py-12 flex justify-between content-center">
-      <div class="mx-auto">
+  <div class="">
+    <div class="flex border-t-4 border-blue-800 mx-auto p-12 justify-between">
+      <div class="mx-auto md:mx-0">
         <router-link to="/"
           ><svg
             width="239"
@@ -16,6 +16,8 @@
         ></router-link>
       </div>
 
+      <div class="hidden md:inline text-gray-800 ">coming soon</div>
+      
       <!-- <div class="w-32 flex justify-between">
         <div class="">
           <router-link to="/">Home</router-link>
@@ -26,6 +28,8 @@
         </div>
       </div> -->
     </div>
+
+    
   </div>
 </template>
 
