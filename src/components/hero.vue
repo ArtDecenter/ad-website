@@ -6,16 +6,16 @@
           A market as open as art itself
         </p>
 
-        <p class="w-full md:w-3/5 mx-auto pt-8 text-gray-800 text-center md:text-left">
+        <p class="w-full md:w-1/2 mx-auto pt-8 text-gray-800 text-center md:text-left">
           We are building a
           <span class="highlight-text">decentralized application</span>
           focusing on trustless interaction between artists, art enthusiasts,
           museums & collectors.
         </p>
-        <p class="w-full md:w-3/5 mx-auto text-gray-800 text-center md:text-left">By rethinking the structure of ownership and
+        <p class="w-full md:w-1/2 mx-auto text-gray-800 text-center md:text-left pt-4">By rethinking the structure of ownership and
           value distribution, we adopt web3 standards to the art market.</p>
 
-          <div class="w-full md:w-3/5 pt-8 mx-auto text-gray-800 text-center md:text-left sm:inline md:hidden">coming soon</div>
+          <div class="w-full md:w-1/2 pt-8 mx-auto text-gray-800 text-center md:text-left sm:inline md:hidden">coming soon</div>
    
     
   </div>
