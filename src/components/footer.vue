@@ -1,7 +1,7 @@
 <template lang="html">
   <!-- footer total -->
 
-  <div id="FooterTotal " class="border-t border-gray-400 w-11/12 mx-auto py-12">
+  <div id="FooterTotal " class="border-t border-gray-200 w-11/12 mx-auto py-6 lg:py-12">
     <!-- social links -->
 
     <div id="FooterWrapper" class="">
@@ -10,7 +10,7 @@
       <!-- logo & contact -->
 
       <div class="">
-        <img src="@/assets/artdecenter-logo.svg" alt="" class="mx-auto">
+        <img src="@/assets/artdecenter-logo.svg" alt="" class="mx-auto w-40 md:w-56 ">
       </div>
 
       <div class="pt-8 text-base tracking-wide leading-tight">

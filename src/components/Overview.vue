@@ -1,13 +1,17 @@
 <template>
   <div>
-    <div class="w-full mx-auto flex justify-around">
-      <div class="w-1/4" v-for="overview in overviewBoxes" v-bind:key="overview">
+    <div class="w-full mx-auto flex flex-wrap justify-around">
+      <div
+        class="w-10/12 mx-auto lg:w-1/4 pb-8"
+        v-for="overview in overviewBoxes"
+        v-bind:key="overview"
+      >
         <h1 class="fontMono text-xl pb-4 italic">{{ overview.headline }}</h1>
         <p class="fontInter font-base">{{ overview.text }}</p>
       </div>
     </div>
     <div
-      class="fontMono italic w-4/5 text-center mx-auto py-24 leading-snug text-5xl"
+      class="fontMono italic w-10/12 lg:w-4/5 text-center mx-auto py-8 lg:py-24 leading-snug text-xl lg:text-5xl"
     >ArtDecenter connects participants of the art market peer-to-peer, by providing a decentralized platform accessible through an easy-to-use application.</div>
   </div>
 </template>

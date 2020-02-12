@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="">
-    <div class="flex mx-auto p-12 justify-between ">
+    <div class="flex mx-auto p-8 lg:p-12 justify-between ">
       <div class="mx-auto md:mx-0">
         <router-link to="/"
-          ><img src="@/assets/artdecenter-logo.svg" alt="" class="w-56"></router-link>
+          ><img src="@/assets/artdecenter-logo.svg" alt="" class=" w-48 lg:w-56"></router-link>
 
       </div>
 
-      <div class="flex">
+      <div class="md:inline-flex hidden">
         <div><a href="https://twitter.com/ArtDecenter" target=”_blank”><img src="@/assets/social/twitter.svg" alt="" class="w-8 mx-2 opacity-50 hover:opacity-100"></a></div>
         <div><a href="https://github.com/ArtDecenter" target=”_blank”><img src="@/assets/social/github.svg" alt="" class="w-8 mx-2 opacity-50 hover:opacity-100"></a></div>
       </div>
