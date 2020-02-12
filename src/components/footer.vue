@@ -1,7 +1,7 @@
 <template lang="html">
   <!-- footer total -->
 
-  <div id="FooterTotal">
+  <div id="FooterTotal " class="border-t border-gray-400 w-11/12 mx-auto py-12">
     <!-- social links -->
 
     <div id="FooterWrapper" class="">
@@ -15,10 +15,10 @@
 
       <div class="pt-8 text-base tracking-wide leading-tight">
         <div class="text-center ">
-          <a class="hover:text-white" href="mailto:info@artdecenter.com"
+          <!-- <a class="hover:text-white" href="mailto:info@artdecenter.com"
             >Contact us</a
-          >
-          | Impressum
+          > -->
+           &copy; Berlin, 2020
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@ export default {
   @apply;
 }
 #FooterWrapper {
-  @apply .mx-auto .pb-8;
+  @apply .mx-auto;
 }
 #SocialLinksDiv {
   @apply .mx-auto .flex .flex-wrap .justify-around .text-center;

@@ -8,8 +8,8 @@
       </div>
 
       <div class="flex">
-        <div><a href="#"><img src="@/assets/social/twitter.svg" alt="" class="w-10 mx-2 opacity-50 hover:opacity-100"></a></div>
-        <div><a href="#"><img src="@/assets/social/github.svg" alt="" class="w-10 mx-2 opacity-50 hover:opacity-100"></a></div>
+        <div><a href="https://twitter.com/ArtDecenter" target=”_blank”><img src="@/assets/social/twitter.svg" alt="" class="w-8 mx-2 opacity-50 hover:opacity-100"></a></div>
+        <div><a href="https://github.com/ArtDecenter" target=”_blank”><img src="@/assets/social/github.svg" alt="" class="w-8 mx-2 opacity-50 hover:opacity-100"></a></div>
       </div>
       
       <!-- <div class="w-32 flex justify-between">

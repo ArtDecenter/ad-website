@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="adRed font-base">
+  <div id="app" class="adRed font-base container mx-auto">
     <div id="nav">
       <!-- <router-link to="/">Home</router-link>|
       <router-link to="/about">About</router-link>-->
@@ -26,6 +26,7 @@ export default {
   font-family: "Inter", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1280px;
 }
 
 .fontManrope {

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <div class="w-full flex">
-      <div class="w-1/4 mx-auto" v-for="overview in overviewBoxes" v-bind:key="overview">
+    <div class="w-full mx-auto flex justify-around">
+      <div class="w-1/4" v-for="overview in overviewBoxes" v-bind:key="overview">
         <h1 class="fontMono text-xl pb-4 italic">{{ overview.headline }}</h1>
         <p class="fontInter font-base">{{ overview.text }}</p>
       </div>
@@ -21,17 +21,17 @@ export default {
         {
           headline: "peer-to-peer",
           text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam ratione quo porro aliquam corrupti quisquam dolorum, quasi nobis nam!"
+            "A truly open market needs to connect its participants permissionless and without middlesman. That's why our platform is based on web3 standards powered by the Ethereum blockchain."
         },
         {
-          headline: "modular",
+          headline: "customizable",
           text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam ratione quo porro aliquam corrupti quisquam dolorum, quasi nobis nam!"
+            "We are bridging the gap between the art market and digital innovation. By offering a modular plugin approach for our ÐApp, you can choose what features you want to make us of to get started."
         },
         {
           headline: "accessible",
           text:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla numquam ratione quo porro aliquam corrupti quisquam dolorum, quasi nobis nam!"
+            "Our goal is it to simplify the process of interacting with the blockchain, by offering a simple and straightforward interface. Get the best of blockchain without the need to code a single line. "
         }
       ]
     };

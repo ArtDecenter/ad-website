@@ -3,6 +3,7 @@
     <HeaderNav />
     <Hero />
     <Overview />
+    <Donate />
     <Footer />
   </div>
 </template>
@@ -12,6 +13,7 @@
 import HeaderNav from "@/components/HeaderNav.vue";
 import Hero from "@/components/Hero.vue";
 import Overview from "@/components/Overview.vue";
+import Donate from "@/components/Donate.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -20,6 +22,7 @@ export default {
     HeaderNav,
     Hero,
     Overview,
+    Donate,
     Footer
   }
 };
