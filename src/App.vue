@@ -1,15 +1,14 @@
 <template>
-  <div id="app">
+  <div id="app" class="adRed">
     <headerNav />
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/> -->
+    <router-view/>-->
     <hero />
     <!-- <Footer /> -->
   </div>
-  
 </template>
 
 <script>
@@ -23,17 +22,23 @@ export default {
   name: "home",
   components: {
     headerNav,
-    hero,
-    
+    hero
   }
 };
 </script>
 
 <style>
 #app {
-  font-family: "IBM Plex Mono", "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Manrope", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.fontInter {
+  font-family: "Inter", sans-serif;
+}
+
+.adRed {
+  color: #ff1f00;
+}
 </style>
