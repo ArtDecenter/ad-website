@@ -1,13 +1,16 @@
 <template lang="html">
   <div class="">
-    <div class="flex border-t-4 border-blue-800 mx-auto p-12 justify-between ">
+    <div class="flex mx-auto p-12 justify-between ">
       <div class="mx-auto md:mx-0">
         <router-link to="/"
           ><img src="@/assets/artdecenter-logo.svg" alt="" class="w-56"></router-link>
 
       </div>
 
-      <div class="hidden md:inline ">coming soon</div>
+      <div class="flex">
+        <div><a href="#"><img src="@/assets/social/twitter.svg" alt="" class="w-10 mx-2 opacity-50 hover:opacity-100"></a></div>
+        <div><a href="#"><img src="@/assets/social/github.svg" alt="" class="w-10 mx-2 opacity-50 hover:opacity-100"></a></div>
+      </div>
       
       <!-- <div class="w-32 flex justify-between">
         <div class="">
@@ -23,5 +26,15 @@
     
   </div>
 </template>
+
+
+
+<script>
+export default {
+  name: "HeaderNav"
+};
+</script>
+
+
 
 <style lang="css" scoped></style>

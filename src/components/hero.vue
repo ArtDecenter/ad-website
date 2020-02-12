@@ -1,10 +1,10 @@
 <template>
-  <div class="p-6 md:p-12 mx-auto">
+  <div class="mx-auto pt-16 pb-24">
     <p
-      class="w-1/2 text-center mx-auto py-2 lg:text-6xl md:text-4xl leading-tight font-black"
+      class="w-1/2 text-center mx-auto py-2 lg:text-6xl md:text-4xl leading-tight font-black fontManrope"
     >A market as open as art itself</p>
 
-    <div class="w-3/5 mx-auto pt-8 text-center text-xl leading-snug fontInter font-base">
+    <div class="w-3/5 mx-auto pt-8 text-center text-xl leading-snug font-base">
       <p>
         We are building a decentralized application
         focusing on trustless interaction between artists, art enthusiasts,
@@ -24,13 +24,10 @@
 
 <script>
 export default {
-  name: "hero"
+  name: "Hero"
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.highlight-text {
-  @apply bg-gray-200 p-1  rounded-lg;
-}
 </style>

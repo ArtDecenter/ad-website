@@ -5,17 +5,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "PlexMono";
-  src: url("https://github.com/IBM/plex/blob/master/IBM-Plex-Mono/fonts/complete/woff/IBMPlexMono-Thin.woff");
-}
-
-@font-face {
   font-family: "Manrope";
   src: url(../assets/fonts/manrope-extrabold.woff2);
 }
 
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap");
-
-@import url("https://github.com/sharanda/manrope/blob/master/fonts/web/manrope-extrabold.woff2");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i&display=swap");
 
 @import url("https://rsms.me/inter/inter.css");

@@ -1,12 +1,11 @@
 <template>
-  <div id="app" class="adRed">
-    <headerNav />
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app" class="adRed font-base">
+    <div id="nav">
+      <!-- <router-link to="/">Home</router-link>|
+      <router-link to="/about">About</router-link>-->
     </div>
-    <router-view/>-->
-    <hero />
+    <router-view />
+
     <!-- <Footer /> -->
   </div>
 </template>
@@ -14,28 +13,27 @@
 <script>
 // @ is an alias to /src
 
-import headerNav from "@/components/headerNav.vue";
-import hero from "@/components/hero.vue";
 // import Footer from "@/components/footer.vue";
 
 export default {
   name: "home",
-  components: {
-    headerNav,
-    hero
-  }
+  components: {}
 };
 </script>
 
 <style>
 #app {
-  font-family: "Manrope", "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Inter", "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fontInter {
-  font-family: "Inter", sans-serif;
+.fontManrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.fontMono {
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .adRed {
