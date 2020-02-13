@@ -10,12 +10,16 @@
       <p>
         We are building a decentralized application
         focusing on trustless interaction between artists, art enthusiasts,
-        museums & collectors.
-      </p>
-      <p class="pt-5">
-        By rethinking the structure of ownership and
+        museums & collectors. By rethinking the structure of ownership and
         value distribution, we adopt web3 standards to the art market.
       </p>
+
+      <!-- Signup Form Mailchim -->
+      <p class="pt-5">Subscribe to our newsletter to be notified of future updates.</p>
+
+      <button class="mt-5 p-3 rounded-lg border border-red-500 items-center hover:text-red-500">
+        <a target="_blank" href="https://artdecenter.typeform.com/to/GzFJUm">Subscribe</a>
+      </button>
     </div>
   </div>
 </template>
